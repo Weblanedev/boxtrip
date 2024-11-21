@@ -112,4 +112,40 @@ module.exports = [
     tourType: "Attractions & Museums",
     delayAnimation: "200",
   },
+  {
+    id: 7,
+    tag: "top rated",
+    slideImg: [
+      "https://i.ibb.co/mC7jVhK/paris01.jpg",
+      "https://i.ibb.co/KKqLGx4/paris02.jpg",
+      "https://i.ibb.co/SRfLjFs/paris03.jpg",
+      "https://i.ibb.co/J33snnv/paris04.jpg",
+    ],
+    title:
+      "Sensational Paris Tour - From the Louvre to the Eiffel Tower, exploring the local cuisine and culture",
+    location: "Paris, France",
+    duration: "14",
+    numberOfReviews: "3645",
+    price: "557",
+    tourType: "Attractions & Theatres",
+    delayAnimation: "200",
+  },
+  {
+    id: 8,
+    tag: "",
+    slideImg: [
+      "https://i.ibb.co/6NHwbzh/namibia01.webp",
+      "https://i.ibb.co/Pr8qnMw/namibia02.webp",
+      "https://i.ibb.co/YTq1tPz/namibia03.webp",
+      "https://i.ibb.co/sKxYL0r/namibia04.jpg",
+    ],
+    title:
+      "Namibia Wildlife and Safari Tour. Enjoy the wildlife and wildlife habitat, alongside authentic local delicacies",
+    location: "Namibia",
+    duration: "14",
+    numberOfReviews: "294",
+    price: "205",
+    tourType: "Wildlife and Safari",
+    delayAnimation: "200",
+  },
 ];

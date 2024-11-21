@@ -38,7 +38,7 @@ const Tours2 = () => {
           },
         }}
       >
-        {toursData.slice(0, 6).map((item) => (
+        {toursData.slice(0, 8).map(item => (
           <SwiperSlide key={item.id}>
             <div
               key={item?.id}
