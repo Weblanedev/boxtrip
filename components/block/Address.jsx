@@ -5,7 +5,7 @@ const Address = () => {
       colClass: "col-lg-3",
       title: "Address",
       content: (
-        <>328 Queensberry Street, North Melbourne VIC 3051, Australia.</>
+        <>No 4, Saula Street, Ijokoro, Abule Egba, Lagos State, Nigeria.</>
       ),
     },
     {
@@ -14,10 +14,11 @@ const Address = () => {
       title: "Toll Free Customer Care",
       content: (
         <>
-          <a href="tel:+4733378901">+47 333 78 901</a>
+          <a href="tel:+4733378901">+234 908 353 6915</a>
         </>
       ),
     },
+
     {
       id: 3,
       colClass: "col-auto",
@@ -25,14 +26,14 @@ const Address = () => {
       content: (
         <>
           {" "}
-          <a href="mailto:i@gotrip.com">hi@gotrip.com</a>
+          <a href="mailto:i@gotrip.com">hello@boxtrip.com</a>
         </>
       ),
     },
   ];
   return (
     <>
-      {addressContent.map((item) => (
+      {addressContent.map(item => (
         <div className={`${item.colClass}`} key={item.id}>
           <div className="text-14 text-light-1">{item.title}</div>
           <div className="text-18 fw-500 mt-10">{item.content}</div>

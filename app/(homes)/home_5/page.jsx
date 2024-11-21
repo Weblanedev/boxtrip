@@ -3,7 +3,7 @@ import Header1 from "@/components/header/header-1";
 import Hero5 from "@/components/hero/hero-5";
 import Hero1 from "@/components/hero/hero-1";
 import Link from "next/link";
-import Footer4 from "@/components/footer/footer-4";
+import DefaultFooter from "@/components/footer/default";
 import Tours2 from "@/components/tours/Tours2";
 import TourCategories from "@/components/home/home-5/TourCategories";
 import Locations from "@/components/home/home-5/Locations";
@@ -294,7 +294,7 @@ const home_5 = () => {
       <CallToActions />
       {/* End CallToActions */}
 
-      <Footer4 />
+      <DefaultFooter />
       {/* End Footer Section */}
     </>
   );
