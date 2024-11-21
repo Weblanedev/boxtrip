@@ -101,52 +101,29 @@ export const testimonial2 = [
 export const testimonial3 = [
   {
     id: 1,
-    meta: "Hotel Equatorial Melaka",
-    avatar: "/img/testimonials/2/1.png",
-    name: "Annette Black",
-    designation: "UX / UI Designer",
+    meta: "Oogan-Sakazuki Dynasty",
+    avatar: "/img/testimonials/2/stock1.png",
+    name: "Jake Collier",
+    designation: "Financial Analyst",
     text: `"Our family was traveling via bullet train between cities in
     Japan with our luggage - the location for this hotel made that so
     easy. Agoda price was fantastic."`,
   },
   {
     id: 2,
-    meta: "Hotel Equatorial Melaka",
-    avatar: "/img/testimonials/2/2.png",
+    meta: "Paradise Hotel",
+    avatar: "/img/testimonials/2/stock2.png",
     name: "Annette Black",
-    designation: "UX / UI Designer",
-    text: `"Our family was traveling via bullet train between cities in
-    Japan with our luggage - the location for this hotel made that so
-    easy. Agoda price was fantastic."`,
+    designation: "Senior Product Designer",
+    text: `"I am a big lover of flowers and I was really taken away by the gardens in the surrounding hotel and city at large. I will definitely return with my family."`,
   },
   {
     id: 3,
-    meta: "Hotel Equatorial Melaka",
-    avatar: "/img/testimonials/2/3.png",
-    name: "Annette Black",
-    designation: "UX / UI Designer",
-    text: `"Our family was traveling via bullet train between cities in
-    Japan with our luggage - the location for this hotel made that so
-    easy. Agoda price was fantastic."`,
-  },
-  {
-    id: 4,
-    meta: "Hotel Equatorial Melaka",
-    avatar: "/img/testimonials/2/4.png",
-    name: "Annette Black",
-    designation: "UX / UI Designer",
-    text: `"Our family was traveling via bullet train between cities in
-    Japan with our luggage - the location for this hotel made that so
-    easy. Agoda price was fantastic."`,
-  },
-  {
-    id: 5,
-    meta: "Hotel Equatorial Melaka",
-    avatar: "/img/testimonials/2/5.png",
-    name: "Annette Black",
-    designation: "UX / UI Designer",
-    text: `"Our family was traveling via bullet train between cities in
-    Japan with our luggage - the location for this hotel made that so
-    easy. Agoda price was fantastic."`,
+    meta: "The Princeton",
+    avatar: "/img/testimonials/2/stock3.png",
+    name: "Matthew Blanco",
+    designation: "Surgery Assistant",
+    text: `"I am always occupied with work, and deciding to go on a vacation this year
+    was the best decision I ever made."`,
   },
 ];

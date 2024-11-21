@@ -6,19 +6,19 @@ const WhyChooseUs = () => {
       id: 1,
       icon: "/img/featureIcons/1/1.svg",
       title: "Best Price Guarantee",
-      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+      text: `We offer a wide range of affordable packages.`,
     },
     {
       id: 2,
       icon: "/img/featureIcons/1/2.svg",
       title: "Easy & Quick Booking",
-      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+      text: `Booking with us is one of the easiest things to do.`,
     },
     {
       id: 3,
       icon: "/img/featureIcons/1/3.svg",
       title: "Customer Care 24/7",
-      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+      text: `We are always here to help you.`,
     },
   ];
 
@@ -28,7 +28,7 @@ const WhyChooseUs = () => {
         <Image
           width={450}
           height={350}
-          src="/img/backgrounds/5.png"
+          src="/img/pages/become-expert/beach.jpg"
           alt="image"
         />
       </div>
@@ -42,7 +42,7 @@ const WhyChooseUs = () => {
               These popular destinations have a lot to offer
             </p>
             <div className="row y-gap-30 pt-60 md:pt-40">
-              {expertContent.map((item) => (
+              {expertContent.map(item => (
                 <div className="col-12" key={item.id}>
                   <div className="d-flex pr-30">
                     <Image

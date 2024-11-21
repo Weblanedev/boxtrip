@@ -74,7 +74,7 @@ const home_5 = () => {
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">Choose Tour Types</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames ac ante ipsum
+                  Whatever relaxing experience you seek
                 </p>
               </div>
             </div>
@@ -113,7 +113,7 @@ const home_5 = () => {
       </section>
       {/* End Tours Categories */}
 
-      <section className="layout-pt-md layout-pb-md">
+      {/* <section className="layout-pt-md layout-pb-md">
         <div className="container">
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
@@ -124,7 +124,7 @@ const home_5 = () => {
                 </p>
               </div>
             </div>
-            {/* End .col */}
+            {/* End .col 
 
             <div className="col-auto">
               <a
@@ -134,72 +134,18 @@ const home_5 = () => {
                 More <div className="icon-arrow-top-right ml-15" />
               </a>
             </div>
-            {/* End .col */}
+            {/* End .col 
           </div>
-          {/* End .row */}
+          {/* End .row 
 
           <div className="row y-gap-30 pt-40 sm:pt-20">
             <Locations />
           </div>
-          {/* End .row */}
+          {/* End .row 
         </div>
-        {/* End .container */}
-      </section>
+        {/* End .container 
+      </section> */}
       {/* End Explore Hot Locations */}
-
-      <section className="layout-pt-md layout-pb-md">
-        <div className="container">
-          <div className="row y-gap-20 justify-between items-end">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Deals &amp; Discounts</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames ac ante ipsum
-                </p>
-              </div>
-            </div>
-            {/* End .col */}
-
-            <div className="col-auto">
-              <div className="d-flex x-gap-15 items-center ">
-                <div className="col-auto">
-                  <button className="d-flex items-center text-24 arrow-left-hover js-tour-discounts-prev">
-                    <i className="icon icon-arrow-left" />
-                  </button>
-                </div>
-                {/* End prev navigation */}
-                <div className="col-auto">
-                  <div className="pagination -dots text-border js-tour-discount-pagination" />
-                </div>
-                {/* End pagination */}
-                <div className="col-auto">
-                  <button className="d-flex items-center text-24 arrow-right-hover js-tour-discounts-next">
-                    <i className="icon icon-arrow-right" />
-                  </button>
-                </div>
-                {/* End .next navigation */}
-              </div>
-            </div>
-            {/* End .col for swiper navigation and pagination */}
-          </div>
-          {/* End .col */}
-
-          <div className="row y-gap-30 pt-40">
-            <div className="col-xl-5">
-              <DiscountsBanner />
-            </div>
-            {/* End col-xl-5 */}
-
-            <div className="col-xl-7">
-              <Tours3 />
-            </div>
-            {/* End col-xl-7 */}
-          </div>
-          {/* End .row */}
-        </div>
-        {/* End .container */}
-      </section>
-      {/* End Deals & Discounts */}
 
       <section className="layout-pt-md layout-pb-lg">
         <div className="container">
@@ -227,7 +173,7 @@ const home_5 = () => {
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">Customer Reviews</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames ac ante ipsum
+                  Hear what our customers have to say
                 </p>
               </div>
             </div>
@@ -266,30 +212,6 @@ const home_5 = () => {
         {/* End .container */}
       </section>
       {/* End brand partner Section */}
-
-      <section className="layout-pt-md layout-pb-md">
-        <div className="container">
-          <div className="row justify-center text-center">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">
-                  Get inspiration for your next trip
-                </h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* End .row  */}
-          <div className="row y-gap-30 pt-40">
-            <Blog />
-          </div>
-          {/* End .row */}
-        </div>
-        {/* End .container */}
-      </section>
-      {/* End blog Section */}
 
       <CallToActions />
       {/* End CallToActions */}

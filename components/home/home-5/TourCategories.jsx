@@ -1,5 +1,4 @@
-
-'use client'
+"use client";
 
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -37,7 +36,7 @@ const TourCategories = () => {
           },
         }}
       >
-        {tourCategories1.slice(0, 8).map((item) => (
+        {tourCategories1.slice(0, 5).map(item => (
           <SwiperSlide key={item.id}>
             <div data-aos="fade" data-aos-delay={item.dealyAimation}>
               <Link
