@@ -116,10 +116,10 @@ module.exports = [
     id: 7,
     tag: "top rated",
     slideImg: [
-      "https://i.ibb.co/mC7jVhK/paris01.jpg",
-      "https://i.ibb.co/KKqLGx4/paris02.jpg",
-      "https://i.ibb.co/SRfLjFs/paris03.jpg",
-      "https://i.ibb.co/J33snnv/paris04.jpg",
+      "/img/tours/paris/paris01.jpg",
+      "/img/tours/paris/paris02.jpg",
+      "/img/tours/paris/paris03.jpg",
+      "/img/tours/paris/paris04.jpg",
     ],
     title:
       "Sensational Paris Tour - From the Louvre to the Eiffel Tower, exploring the local cuisine and culture",
@@ -134,10 +134,10 @@ module.exports = [
     id: 8,
     tag: "",
     slideImg: [
-      "https://i.ibb.co/6NHwbzh/namibia01.webp",
-      "https://i.ibb.co/Pr8qnMw/namibia02.webp",
-      "https://i.ibb.co/YTq1tPz/namibia03.webp",
-      "https://i.ibb.co/sKxYL0r/namibia04.jpg",
+      "/img/tours/namibia/namibia01.webp",
+      "/img/tours/namibia/namibia02.webp",
+      "/img/tours/namibia/namibia03.webp",
+      "/img/tours/namibia/namibia04.jpg",
     ],
     title:
       "Namibia Wildlife and Safari Tour. Enjoy the wildlife and wildlife habitat, alongside authentic local delicacies",
