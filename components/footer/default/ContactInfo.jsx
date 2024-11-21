@@ -3,19 +3,19 @@ const ContactInfo = () => {
     {
       id: 1,
       title: "Toll Free Customer Care",
-      action: "tel:+(1) 123 456 7890",
-      text: "+(1) 123 456 7890",
+      action: "tel:+2349083536915",
+      text: "+2349083536915",
     },
     {
       id: 2,
       title: "Need live support?",
       action: "mailto:xyz@abc.com",
-      text: "hi@gotrip.com",
+      text: "hello@boxtrip.com",
     },
   ];
   return (
     <>
-      {contactContent.map((item) => (
+      {contactContent.map(item => (
         <div className="mt-30" key={item.id}>
           <div className={"text-14 mt-30"}>{item.title}</div>
           <a href={item.action} className="text-18 fw-500 text-blue-1 mt-5">
