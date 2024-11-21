@@ -1,6 +1,0 @@
-{
-  "/(others)/contact/page": "app/(others)/contact/page.js",
-  "/page": "app/page.js",
-  "/(blogs)/blog-details/[id]/page": "app/(blogs)/blog-details/[id]/page.js",
-  "/(tour)/tour-single/[id]/page": "app/(tour)/tour-single/[id]/page.js"
-}
