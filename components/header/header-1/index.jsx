@@ -27,15 +27,17 @@ const Header1 = () => {
 
   return (
     <>
-      <header className={`header ${navbar ? "bg-dark-1 is-sticky" : ""}`}>
+      <header
+        className={`header ${navbar ? "bg-dark-1 is-sticky" : "text-dark"}`}
+      >
         <div className="header__container px-30 sm:px-20">
           <div className="row justify-between items-center">
             <div className="col-auto">
               <div className="d-flex items-center">
                 <Link href="/" className="header-logo mr-20">
-                  <h1 className="text-white">BoxTrip</h1>
-                  {/* <img src="/img/general/logo-light.svg" alt="logo icon" /> */}
-                  {/* <img src="/img/general/logo-dark.svg" alt="logo icon" /> */}
+                  <h1 className={`${navbar ? "text-white" : "text-dark"}`}>
+                    BoxTrip
+                  </h1>
                 </Link>
                 {/* End logo */}
 
