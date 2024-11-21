@@ -17,13 +17,13 @@ import MapPropertyFinder from "@/components/rental-single/MapPropertyFinder";
 import HelpfulFacts from "@/components/rental-single/HelpfulFacts";
 
 export const metadata = {
-  title: "Rental Single || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Rental Single || BoxTrip - Travel & Tour React NextJS Template",
+  description: "BoxTrip - Travel & Tour React NextJS Template",
 };
 
 const TourSingleV1Dynamic = ({ params }) => {
   const id = params.id;
-  const rental = rentalsData.find((item) => item.id == id) || rentalsData[0];
+  const rental = rentalsData.find(item => item.id == id) || rentalsData[0];
 
   return (
     <>

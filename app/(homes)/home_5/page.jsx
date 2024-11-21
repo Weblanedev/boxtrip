@@ -17,8 +17,8 @@ import Testimonial from "@/components/home/home-5/Testimonial";
 import Brand2 from "@/components/brand/Brand2";
 
 export const metadata = {
-  title: "Home-5 || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Home-5 || BoxTrip - Travel & Tour React NextJS Template",
+  description: "BoxTrip - Travel & Tour React NextJS Template",
 };
 
 const home_5 = () => {

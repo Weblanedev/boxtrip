@@ -14,8 +14,8 @@ import Cruise3 from "@/components/cruise/Cruise3";
 import SearchBoxContent from "@/components/hero/hero-9/SearchBoxContent";
 
 export const metadata = {
-  title: "Home-9 || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Home-9 || BoxTrip - Travel & Tour React NextJS Template",
+  description: "BoxTrip - Travel & Tour React NextJS Template",
 };
 
 const home_9 = () => {

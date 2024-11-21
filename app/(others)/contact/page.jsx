@@ -10,8 +10,8 @@ import LocationTopBar from "@/components/common/LocationTopBar";
 import Header1 from "@/components/header/header-1";
 
 export const metadata = {
-  title: "Contact || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Contact || BoxTrip - Travel & Tour React NextJS Template",
+  description: "BoxTrip - Travel & Tour React NextJS Template",
 };
 
 const Contact = () => {

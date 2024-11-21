@@ -26,7 +26,7 @@ const Address = () => {
       content: (
         <>
           {" "}
-          <a href="mailto:i@gotrip.com">hello@boxtrip.com</a>
+          <a href="mailto:i@boxtrip.com">hello@boxtrip.com</a>
         </>
       ),
     },

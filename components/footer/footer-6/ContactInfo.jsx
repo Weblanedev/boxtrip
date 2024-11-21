@@ -10,12 +10,12 @@ const ContactInfo = () => {
       id: 2,
       title: "Need live support?",
       action: "mailto:xyz@abc.com",
-      text: "hi@gotrip.com",
+      text: "hello@boxtrip.com",
     },
   ];
   return (
     <>
-      {contactContent.map((item) => (
+      {contactContent.map(item => (
         <div className="mt-30" key={item.id}>
           <div className="mt-30">
             <div className="text-14 mt-30">{item.title}</div>

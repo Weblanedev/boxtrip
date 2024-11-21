@@ -11,13 +11,13 @@ import BlogNavigator from "@/components/blog/blog-details/BlogNavigator";
 import Comments from "@/components/blog/blog-details/Comments";
 
 export const metadata = {
-  title: "Blog Single || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Blog Single || BoxTrip - Travel & Tour React NextJS Template",
+  description: "BoxTrip - Travel & Tour React NextJS Template",
 };
 
 const BlogSingleDynamic = ({ params }) => {
   const id = params.id;
-  const blog = blogsData.find((item) => item.id == id) || blogsData[0];
+  const blog = blogsData.find(item => item.id == id) || blogsData[0];
 
   return (
     <>

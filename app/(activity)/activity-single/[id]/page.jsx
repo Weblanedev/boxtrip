@@ -20,14 +20,13 @@ import SlideGallery from "@/components/activity-single/SlideGallery";
 import MapPropertyFinder from "@/components/activity-single/MapPropertyFinder";
 
 export const metadata = {
-  title: "Activity Single || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Activity Single || BoxTrip - Travel & Tour React NextJS Template",
+  description: "BoxTrip - Travel & Tour React NextJS Template",
 };
 
 const TourSingleV1Dynamic = ({ params }) => {
   const id = params.id;
-  const activity =
-    activityData.find((item) => item.id == id) || activityData[0];
+  const activity = activityData.find(item => item.id == id) || activityData[0];
 
   return (
     <>

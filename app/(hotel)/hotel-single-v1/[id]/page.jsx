@@ -25,13 +25,13 @@ import DefaultFooter from "@/components/footer/default";
 import GalleryOne from "@/components/hotel-single/GalleryOne";
 
 export const metadata = {
-  title: "Hotel Single v1 || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Hotel Single v1 || BoxTrip - Travel & Tour React NextJS Template",
+  description: "BoxTrip - Travel & Tour React NextJS Template",
 };
 
 const HotelSingleV1Dynamic = ({ params }) => {
   const id = params.id;
-  const hotel = hotelsData.find((item) => item.id == id) || hotelsData[0];
+  const hotel = hotelsData.find(item => item.id == id) || hotelsData[0];
 
   return (
     <>

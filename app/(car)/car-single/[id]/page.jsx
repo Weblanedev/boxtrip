@@ -17,13 +17,13 @@ import Faq from "@/components/faq/Faq";
 import MapPropertyFinder from "@/components/car-single/MapPropertyFinder";
 
 export const metadata = {
-  title: "Car Single || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Car Single || BoxTrip - Travel & Tour React NextJS Template",
+  description: "BoxTrip - Travel & Tour React NextJS Template",
 };
 
 const TourSingleV1Dynamic = ({ params }) => {
   const id = params.id;
-  const car = carsData.find((item) => item.id == id) || carsData[0];
+  const car = carsData.find(item => item.id == id) || carsData[0];
 
   return (
     <>
