@@ -2,7 +2,7 @@
 'use client'
 
 import { useState } from "react";
-import InputRange from "react-input-range";
+// import InputRange from "react-input-range";
 
 const PirceSlider = () => {
   const [price, setPrice] = useState({
@@ -23,7 +23,7 @@ const PirceSlider = () => {
           <span className="js-upper mx-1">${price.value.max}</span>
         </div>
       </div>
-
+{/* 
       <div className="px-5">
         <InputRange
           formatLabel={(value) => ``}
@@ -32,7 +32,7 @@ const PirceSlider = () => {
           value={price.value}
           onChange={(value) => handleOnChange(value)}
         />
-      </div>
+      </div> */}
     </div>
   );
 };
